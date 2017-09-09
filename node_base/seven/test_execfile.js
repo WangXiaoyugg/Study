@@ -1,0 +1,1 @@
+var child_process = require('child_process');child_process.exec('ls -lh /usr',(err,stdout,stderr)=>{   console.log(stdout);   console.log('*************');});child_process.execFile('/bin/ls',['-lh','/usr'],(err,stdout,stderr)=>{    console.log(stdout);})

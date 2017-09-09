@@ -1,0 +1,1 @@
+// 信号事件就是接收到某个特定信号才会被触发的事件// 比如SIGINT事件的触发方式是ctrl+c：process.stdin.resume();process.on('SIGINT',()=>{    console.log('Got SIGINT, Press Control - D to exit.')})

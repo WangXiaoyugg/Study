@@ -1,0 +1,1 @@
+// 在shell中运行一个命令，并缓存其输出var exec = require('child_process').exec;var child;child = exec('cat *.js bad_file | wc -l',(error,stdout,stderr)=>{   console.log('stdout',stdout);   console.log('stderr',stderr);   if(error !== null){       console.log('exec error: '+ error);   }});

@@ -1,0 +1,1 @@
+// var fs = require('fs'); // 载入fs模块// fs.unlink('./test.txt', function(err) {//     if (err) {//         throw err;//     }//     console.log('成功删除了 ./test.txt');// });// fs.unlinkSync('./test.txt');console.log('成功删除了 ./test.txt');

@@ -1,0 +1,1 @@
+//使用emitter.emit(event, [arg1], [arg2], [...])可以触发自定义的事件var http = require('http');var server = http.createServer();server.on('myevent',function (arg) {    console.log(arg);})server.emit('myevent','wangxiaoyu');server.listen(1337, '127.0.0.1');console.log('Server running at http://127.0.0.1:1337/');

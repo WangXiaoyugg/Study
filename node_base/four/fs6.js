@@ -1,0 +1,1 @@
+var fs = require('fs');// fs.mkdir('./lib',(err)=>{//     if(err) throw err;//     console.log('make dir success.')// })fs.readdir('../four',(err,files)=>{    if(err) throw err;    console.log(files)});
