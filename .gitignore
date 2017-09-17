@@ -1,5 +1,4 @@
-*/*/node_modules/*
+*node_modules/*
 .idea
 .DS_Store
-!/easy_spider/node_modules/
-/easy_spider/.idea/
+
