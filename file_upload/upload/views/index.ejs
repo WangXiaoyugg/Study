@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/format.js"></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <% if(locals.success) {%>
+            <div class="alert alert-success" id="alt_success">
+                <%= success %>
+            </div>
+      <% }%>
+        <% if(locals.error) {%>
+            <div class="alert alert-warning" id="alt_warning">
+                <%= error %>
+            </div>
+        <% }%>
+
+      <!--表单-->
+      <form role="form" method="post" enctype="multipart/form-data" class="form-signin" >
+          <div class="form-group">
+              <label for="fulAvatar">上传文件</label>
+              <input type="file" id="fulAvatar" name="fulAvatar" accept="image/*">
+          </div>
+          <button id="btnSub " class="btn btn-lg btn-primary" type="submit">提交</button>
+      </form>
+    </div>
+  </body>
+</html>

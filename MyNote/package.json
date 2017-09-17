@@ -1,0 +1,29 @@
+{
+  "name": "mynote",
+  "version": "1.0.0",
+  "description": "My Note",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "My",
+    "Note"
+  ],
+  "author": "Garen wang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "bootstrap": "^3.3.7",
+    "connect-mongo": "^1.3.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}

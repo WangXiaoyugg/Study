@@ -1,0 +1,16 @@
+{
+  "name": "lesson6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/main.test.js",
+    "test-cov": "./node_modules/.bin/istanbul cover _mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.3",
+    "should": "^13.0.1"
+  }
+}
