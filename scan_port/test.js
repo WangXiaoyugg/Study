@@ -1,0 +1,1 @@
+const scanPorts = require('./scanPort');let host = '127.0.0.1';let start = 8000;let end = 10000;function callback(ports) {    console.log('open ports : ',ports)}scanPorts(host,start,end,callback);
